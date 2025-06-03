@@ -64,5 +64,5 @@ You also have to manually accept all baseline models.
 ## Maintenance
 
 * [data](horde_openai_proxy/data/__init__.py) contains mappings between (partial) names and base model, param sizes, and
-  base models and their template
-* [chat_templates](horde_openai_proxy/chat_templates) needs to be updated once in a while
+  base models and their template.
+* [horde_openai_proxy](horde_openai_proxy)/[chat_templates](https://github.com/chujiezheng/chat_templates/tree/main) needs to be updated once in a while.
