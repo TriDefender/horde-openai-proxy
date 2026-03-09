@@ -53,7 +53,7 @@ class Config:
     max_context_length: int = 2048
 
     logging_level: int = 20
-    report_types = ["debug", "error"]
+    report_types: List[str] = field(default_factory=lambda: ["debug", "error"])
     parallelism: int = 4
     queue: int = 2
 
